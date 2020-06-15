@@ -1,0 +1,47 @@
+# Site settings
+title: "The Mustard Seed"
+email: gabe@gabehess.com
+description: "Humbly Stippling the Seed of the Mustard"
+baseurl: ""
+url: "https://www.seedofthemustard.com"
+title_description: "<hr>The author, being unwilling to impose on the public too great a body of rhetorically deficient inanity, has removed the various essays of <em>The Mustard Seed</em>.<hr>"
+google_analytics:
+disqus_account:
+github_repository: https://github.com/GabeHess/in-pursuit-of-truth
+addthis_id:
+post_limit: 7
+
+# Social usernames/URLs
+twitter_username:
+github_username:
+instagram_username:
+reddit_username:
+linkedin_link:
+google_plus_link:
+stackoverflow_link:
+xing_link:
+facebook_link:
+
+# Footer
+footer_left: "Copyright © 2018-20 Gabe Hess"
+footer_right: <p><a class="foot_link" href="https://www.gabehess.com" target="_blank">Concerning the Author</a> | <a class="foot_link" href="https://assortedscraps.com/" target="_blank">Parallel Vault of Sanity</a></p>
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:title/
+exclude: [vendor]
+include: [_redirects]
+
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed
+
+algolia:
+  application_id: YBGRIGIXL7
+  index_name: search
+  search_only_api_key: 1b9d41ba23cabb947c7e23264686621f

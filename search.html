@@ -1,0 +1,46 @@
+---
+layout: page
+---
+
+<div class="container-fluid index">
+  <div class="row index all-posts">
+
+    <h1 class="header author-header">Search</h1>
+
+    <div class="home">
+
+      <div id="search-searchbar"></div>
+
+      <div class="post-list" id="search-hits">
+        {% for post in site.posts limit:5 %}
+          <div class="post-item">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h2>
+
+            <div class="post-snippet">{{ post.summary }}</div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div id="pagination-container">
+        <ul class="ais-pagination">
+          <li class="ais-pagination--item ais-pagination--item__first ais-pagination--item__disabled" id="pag"><span class="ais-pagination--link">«</span></li>
+          <li class="ais-pagination--item ais-pagination--item__previous ais-pagination--item__disabled" id="pag"><span class="ais-pagination--link">‹</span></li>
+          <li class="ais-pagination--item ais-pagination--item__page ais-pagination--item__active" id="pag"><a class="ais-pagination--link" aria-label="1" href="">1</a></li>
+          <li class="ais-pagination--item ais-pagination--item__next" id="pag"><a class="ais-pagination--link" aria-label="Next" href="">›</a></li>
+          <li class="ais-pagination--item ais-pagination--item__last" id="pag"><a class="ais-pagination--link" aria-label="Last" href="">»</a></li>
+        </ul>
+      </div>
+
+      {% include algolia.html %}
+
+    </div>
+
+  </div>
+</div>

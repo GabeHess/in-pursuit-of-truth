@@ -1,0 +1,4 @@
+# netlify.toml
+# This file should be at the root of your project
+[build]
+  command = "jekyll build && jekyll algolia"
