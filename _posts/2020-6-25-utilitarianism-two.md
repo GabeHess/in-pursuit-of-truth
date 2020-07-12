@@ -8,6 +8,7 @@ author: Gabe Hess
 thumbnail: pot
 tags:
  - Christianity
+ - Freedom
  - John Stuart Mill
  - Marriage
  - Virtue Ethics
