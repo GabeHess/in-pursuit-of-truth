@@ -10,6 +10,7 @@ tags:
  - Christianity
  - Freedom
  - Tolerance
+published: false
 ---
 
 At the close of the last essay, I pointed out that everything (political, social, cultural, ethical, religious), everything which makes people happy, may be fit into utilitarianism. But also that not everything _will_ be fit into utilitarianism. It may make one very happy to be a Christian, but it is hard to be a Christian without having Christian beliefs. It may be of the utmost utility to observe the laws of traditional ethics, but a society that regards the laws of traditional ethics as nonsense, will have no easy time talking itself into observing them.

@@ -9,6 +9,7 @@ thumbnail: pot
 tags:
  - Marriage
  - Self-Interest
+published: false
 ---
 
 In the last essay, I sought to define a bare minimum of utilitarian ethics, concluding that it consists of these three laws: honor your voluntary contracts, do not interfere with the liberty of others except for the purpose of self-defense, and do not cause physical harm to others. In this essay, I propose to address an ambiguity inherent in the first law.

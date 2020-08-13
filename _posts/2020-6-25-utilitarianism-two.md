@@ -12,6 +12,7 @@ tags:
  - John Stuart Mill
  - Marriage
  - Virtue Ethics
+published: false
 ---
 
 In the last essay, I introduced the subject of utilitarianism by sketching a brief outline of the philosophy, in so general a way as not to blur over the distinctions between the various forms of it. I then pointed in a general way to some places where ambiguities could be found in the philosophy, which can only be resolved in particular forms of it, and promised to examine a few of the ways to make those various ambiguities clear, and to trace out the consequences of doing so in this or that way.

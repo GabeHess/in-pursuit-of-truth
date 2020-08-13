@@ -9,6 +9,7 @@ thumbnail: pot
 tags:
  - Happiness
  - Reductionism
+published: false
 ---
 
 We are told by the reductionists that all ethics outside utilitarianism are subjective. Though we know this not to be the case, we require more of an argument against the reductionists than that they, being reductionists, are simplifiers. The true ethic might be simple. Anything more nuanced might be abstraction and delusion.
